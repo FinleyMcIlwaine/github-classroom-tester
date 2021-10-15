@@ -1,0 +1,17 @@
+cabal-version:      3.0
+name:               tester
+version:            0.1.0.0
+license:            NONE
+author:             Finley McIlwaine
+maintainer:         fmcilwai@uwyo.edu
+
+executable tester
+    main-is:          Main.hs
+    build-depends:    base >=4.0.0.0,
+                      aeson >= 2.0.0.0,
+                      bytestring -any,
+                      directory -any,
+                      process -any,
+                      mtl -any,
+                      ansi-terminal -any
+    default-language: Haskell2010
