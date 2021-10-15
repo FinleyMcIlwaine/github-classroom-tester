@@ -30,4 +30,4 @@ cd <path-to-your-project>
 
 The tool will output the results of all tests to standard out. A log of the test results is written to `tester-log.txt` in the directory the `tester` command was ran in.
 
-![tester.gif](gif of tester)
+![tester.gif](tester.gif)
