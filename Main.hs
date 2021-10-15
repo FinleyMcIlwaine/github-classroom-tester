@@ -56,10 +56,10 @@ main = do
           putStr "\n\n"
           setSGR [SetColor Background Vivid Black]
           setSGR [SetColor Foreground Vivid White]
-          putStr $ "Tests complete. Score: " ++ show s ++ "/100. Test log written to testlog.txt."
+          putStr $ "Tests complete. Score: " ++ show s ++ "/100. Test log written to tester-log.txt."
           setSGR [Reset]
           putStr "\n\n"
-          writeFile "testlog.txt" (unlines log)
+          writeFile "tester-log.txt" (unlines log)
 
 runTests :: Tests -> Integer -> WriterT [String] IO Integer
 runTests (Tests []) s = return s
