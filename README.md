@@ -29,3 +29,5 @@ cd <path-to-your-project>
 ## Output
 
 The tool will output the results of all tests to standard out. A log of the test results is written to `testlog.txt` in the directory the `tester` command was ran in.
+
+<img src="https://s9.gifyu.com/images/tester.gif"/>
