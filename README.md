@@ -7,7 +7,7 @@ Haskell application that runs GitHub classroom autograding test commands locally
 ### 1. Clone the repo:
 
 ```
-git clone git@github.com:FinleyMcIlwaine/github-classroom-tester.git tester
+git clone https://github.com/FinleyMcIlwaine/github-classroom-tester.git tester
 ```
 
 ### 2. Install with `cabal` (after changing directories to where you cloned the project):
