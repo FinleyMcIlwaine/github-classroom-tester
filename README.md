@@ -7,7 +7,7 @@ Haskell and Go applications that run GitHub classroom autograding test commands 
 ### 1. Clone the repo:
 
 ```
-git clone git@github.com:FinleyMcIlwaine/github-classroom-tester.git tester
+git clone https://github.com/FinleyMcIlwaine/github-classroom-tester.git tester
 ```
 
 ### 2. Install with `cabal` or `go` (after changing directories to where you cloned the project):
@@ -37,4 +37,4 @@ cd <path-to-your-project>
 
 The tool will output the results of all tests to standard out. A log of the test results is written to `tester-log.txt` in the directory the `tester` command was ran in.
 
-![tester.gif](gif of tester)
+![tester.gif](tester.gif)
