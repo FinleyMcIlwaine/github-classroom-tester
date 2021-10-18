@@ -1,6 +1,6 @@
 # GitHub Classroom Tester
 
-Haskell application that runs GitHub classroom autograding test commands locally.
+Haskell and Go applications that run GitHub classroom autograding test commands locally.
 
 ## Install and Use
 
@@ -10,11 +10,18 @@ Haskell application that runs GitHub classroom autograding test commands locally
 git clone git@github.com:FinleyMcIlwaine/github-classroom-tester.git tester
 ```
 
-### 2. Install with `cabal` (after changing directories to where you cloned the project):
+### 2. Install with `cabal` or `go` (after changing directories to where you cloned the project):
 
+Haskell:
 ```
-cd tester
+cd tester/tester-haskell
 cabal install --installdir <path-to-your-project>
+```
+
+Go:
+```
+cd tester/tester-go
+go build -o <path-to-your-project>
 ```
 
 Where `<path-to-your-project>` is the relative or absolute path to the directory containing the project with the autograding.
